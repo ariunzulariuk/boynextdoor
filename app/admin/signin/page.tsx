@@ -1,3 +1,5 @@
+"use client";
+import { auth } from "@/lib/firebase";
 export default function AdminSignIn() {
   return (
     <div className="flex h-screen items-center justify-center">
